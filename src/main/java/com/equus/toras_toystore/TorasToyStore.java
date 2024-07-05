@@ -1,10 +1,13 @@
 package com.equus.toras_toystore;
 
+import com.equus.toras_toystore.block.ModBlocks;
+import com.equus.toras_toystore.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -25,10 +28,12 @@ public class TorasToyStore
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "toras_ts";
 
-    public TorasToyStore()
-    {
-        // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+    public TorasToyStore() {
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        eventBus.addListener(this::setup);
+
+        ModBlocks.register(eventBus);
+        ModItems.register(eventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
