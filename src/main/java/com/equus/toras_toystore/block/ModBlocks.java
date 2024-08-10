@@ -1,6 +1,7 @@
 package com.equus.toras_toystore.block;
 
 import com.equus.toras_toystore.TorasToyStore;
+import com.equus.toras_toystore.item.ModCreativeModeTab;
 import com.equus.toras_toystore.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,7 +21,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TorasToyStore.MOD_ID);
 
     public static final RegistryObject<Block> FRONTIER_BLOCK = registerBlock("frontier_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
 
 
 

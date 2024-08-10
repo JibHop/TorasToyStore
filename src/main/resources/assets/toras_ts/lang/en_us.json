@@ -1,4 +1,6 @@
 {
-  "block.toras_ts.frontier_block": "Frontier Block"
+  "block.toras_ts.frontier_block": "Frontier Block",
+
+  "itemGroup.torastoystore": "Toras ToyStore"
 
 }
