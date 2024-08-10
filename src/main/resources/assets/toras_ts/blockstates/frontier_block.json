@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "toras_ts:block/frontier_block" }
+  }
+}

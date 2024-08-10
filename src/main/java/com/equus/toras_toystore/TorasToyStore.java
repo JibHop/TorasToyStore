@@ -43,9 +43,7 @@ public class TorasToyStore
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void clientSetup(final FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSHFRONTIER.get(), RenderType.translucent());
-    }
+
 
     private void setup(final FMLCommonSetupEvent event)
     {
