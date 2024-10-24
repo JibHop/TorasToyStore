@@ -1,6 +1,9 @@
 package com.equus.toras_toystore.block;
 
 import com.equus.toras_toystore.TorasToyStore;
+import com.equus.toras_toystore.block.custom.PlushGwyar;
+import com.equus.toras_toystore.block.custom.PlushTora;
+import com.equus.toras_toystore.block.custom.PlushZero;
 import com.equus.toras_toystore.item.ModCreativeModeTab;
 import com.equus.toras_toystore.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -22,6 +25,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> FRONTIER_BLOCK = registerBlock("frontier_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
+
+    public static final RegistryObject<Block> PLUSH_TORA = registerBlock("plush_tora",
+            () -> new PlushTora(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
+    public static final RegistryObject<Block> PLUSH_ZERO = registerBlock("plush_zero",
+            () -> new PlushZero(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
+    public static final RegistryObject<Block> PLUSH_GWYAR = registerBlock("plush_gwyar",
+            () -> new PlushGwyar(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
 
 
 

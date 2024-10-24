@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab TORAS_TOYSTORE = new CreativeModeTab("torastoystore") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.FRONTIER_BLOCK.get());
+            return new ItemStack(ModBlocks.PLUSH_TORA.get());
         }
     };
 }

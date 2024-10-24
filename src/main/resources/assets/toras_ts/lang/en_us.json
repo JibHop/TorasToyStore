@@ -1,6 +1,9 @@
 {
+  "itemGroup.torastoystore": "Toras ToyStore",
+
   "block.toras_ts.frontier_block": "Frontier Block",
 
-  "itemGroup.torastoystore": "Toras ToyStore"
-
+  "block.toras_ts.plush_tora": "Plush Tora",
+  "block.toras_ts.plush_zero": "Plush Zero",
+  "block.toras_ts.plush_gwyar": "Plush Gwyar"
 }
