@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "toras_ts:block/plush_atlas" },
+    "facing=east": { "model": "toras_ts:block/plush_atlas", "y": 90 },
+    "facing=south": { "model": "toras_ts:block/plush_atlas", "y": 180 },
+    "facing=west": { "model": "toras_ts:block/plush_atlas", "y": 270 }
+  }
+}
