@@ -46,9 +46,47 @@ public class TorasToyStore
     private void clientSetup(final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.FRONTIER_BLOCK.get(), RenderType.solid());
 
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_TORA.get(), RenderType.solid());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_ZERO.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_ASGARD.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_ATLAS.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_AVACADO.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_BANDIT.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_BOO.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_CALAMARI.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_CALLIE.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_CHIEF.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_DIORITE.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_DRAGON.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_ECLIPSE.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_FLINT.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_FRONTIER.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_FUYU.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_GAMBIT.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_GRANITE.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_GWYAR.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_HAWK.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_ICARUS.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_JEAGER.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_JOEY.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_KETCH.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_KIZMET.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_LAKE.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_LUCKY.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_METEOR.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_PHOENIX.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_PICASSO.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_POND.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_PRINCE.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_PUPPET.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_SOLSTICE.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_SPIRIT.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_TOBY.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_TOFU.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_TOPTHORN.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_TORA.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_YODA.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_YUUKI.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_ZEPHYRUS.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_ZERO.get(), RenderType.solid());
     }
 
 
