@@ -65,7 +65,7 @@ public class TorasToyStore
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_GWYAR.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_HAWK.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_ICARUS.get(), RenderType.solid());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_JEAGER.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_JAEGER.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_JOEY.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_KETCH.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PLUSH_KIZMET.get(), RenderType.solid());

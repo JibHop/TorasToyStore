@@ -62,7 +62,7 @@ public class ModBlocks {
             () -> new PlushHawk(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
     public static final RegistryObject<Block> PLUSH_ICARUS = registerBlock("plush_icarus",
             () -> new PlushIcarus(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
-    public static final RegistryObject<Block> PLUSH_JEAGER = registerBlock("plush_jeager",
+    public static final RegistryObject<Block> PLUSH_JAEGER = registerBlock("plush_jaeger",
             () -> new PlushJaeger(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
     public static final RegistryObject<Block> PLUSH_JOEY = registerBlock("plush_joey",
             () -> new PlushJoey(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.TORAS_TOYSTORE);
