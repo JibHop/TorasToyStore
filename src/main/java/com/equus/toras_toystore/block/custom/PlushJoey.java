@@ -14,10 +14,10 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 
-public class PlushZero extends Block {
+public class PlushJoey extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    public PlushZero(Properties pProperties) {
+    public PlushJoey(Properties pProperties) {
         super(pProperties);
     }
     private static final VoxelShape SHAPE = Block.box(4, 0, 4, 12, 1, 12);

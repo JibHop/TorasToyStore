@@ -20,7 +20,7 @@ public class PlushGwyar extends Block {
     public PlushGwyar(Properties pProperties) {
         super(pProperties);
     }
-    private static final VoxelShape SHAPE = Block.box(4, 0, 4, 12, 4, 12);
+    private static final VoxelShape SHAPE = Block.box(4, 0, 4, 12, 1, 12);
 
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         return SHAPE;
